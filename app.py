@@ -224,7 +224,7 @@ Pas de question d'ouverture à la fin de la réponse.
 """
 
 model = genai.GenerativeModel(
-    model_name="gemini-1.5-flash",
+    model_name="gemini-1.5-flash-latest",
     system_instruction=INSTRUCTIONS_SYSTEME
 )
 
